@@ -14,9 +14,9 @@ console.log(category);
   const result = document.querySelector('#reading-list');
   // result.textContent = `Title: ${title}, Author: ${author}, Category: ${category}`
 
-  const paragraph = document.createElement('div');
+  const paragraph = document.createElement('p');
   paragraph.textContent = `Title: ${title}, Author: ${author}, Category: ${category}`
-  result.appendChild(paragraph);
+  result.appendChild(paragraph); //this adds more paragraphs to the list
 
   form.reset()
 }
